@@ -11,7 +11,6 @@ import { Container } from "reactstrap";
 const TopPosts = ({ data }) => {
   const [characterNum, setCNUM] = useState(200);
 
-  // let blogCards = useRef(null);
   let blogCards = []
   const setBlogCards = (ref) => {
     blogCards.push(ref)
